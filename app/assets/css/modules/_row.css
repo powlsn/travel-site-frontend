@@ -27,6 +27,11 @@
       margin-bottom: 0; 
     }
 
+    &__md-2 {
+      float: left;
+      width: 25%;
+    }
+
     &__md-4 {
       float: left;
       width: 33.33%;

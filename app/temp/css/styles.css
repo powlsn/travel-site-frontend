@@ -686,6 +686,11 @@ a {
       margin-bottom: 0; 
     }
 
+    .row__md-2 {
+      float: left;
+      width: 25%;
+    }
+
     .row__md-4 {
       float: left;
       width: 33.33%;
