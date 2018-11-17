@@ -1350,3 +1350,17 @@ Instead edit gulp/templates/sprite */
       background-color: transparent
   }
   }
+
+.reveal-item {
+  opacity: 0;
+  -webkit-transition: all .35s ease;
+  transition: all .35s ease;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.reveal-item--is-visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
