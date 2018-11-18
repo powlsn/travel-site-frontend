@@ -16,7 +16,7 @@ gulp.task('watch', () => {
   });
   
   watch('./app/assets/css/**/*.css', () => {
-    gulp.start('cssInject');
+    gulp.start('combineCSS');
   });
 
   watch('./app/assets/scripts/**/*.js', () => {
@@ -25,7 +25,7 @@ gulp.task('watch', () => {
 
 });
 
-gulp.task('cssInject', ['styles'], () => {
+gulp.task('combineCSS', ['styles'], () => {
   return gulp.src('./app/temp/css/styles.css')
     .pipe(browserSync.stream());
 });
