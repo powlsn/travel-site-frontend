@@ -10,6 +10,7 @@
     "waypoints": "4.0.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
     "autoprefixer": "^7.1.6",
     "babel-core": "^6.26.0",
     "babel-loader": "7.1.2",

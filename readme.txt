@@ -1,4 +1,4 @@
-Das Projekt baut intensiv auf node und gulp auf.
+Das Projekt basiert auf node und gulp.
 
 ### Gulp Tasks ###
 watch : {
